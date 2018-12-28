@@ -25,6 +25,18 @@ to par when it comes to criteria[^meta-study] of:
 - Sufficient underlying data[^prototyping-haskell-vs-ada]
 - Unbiased[^api-doc-static]
 
+## Solution
+While this project aims to provide a wealth of datapoints for general
+consumption. We will start wit a repeat of the ["Haskell vs. Ada vs. C++ vs.
+Awk vs. ... An Experiment in Software Prototyping
+Productivity"](http://haskell.cs.yale.edu/wp-content/uploads/2011/03/HaskellVsAda-NSWC.pdf)
+paper.
+
+In the repeat experiment, we will attempt to provide better data on the
+participants, as well as formulating the assessment in a way that is more
+approachable to the participants and that allows us to test the solutions
+provided by our subjects.
+
 ## Points of contention
 
 ### Functional versus object oriented
