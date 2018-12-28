@@ -69,19 +69,24 @@ these claims.
   logical propositions that are either impossible to prove or disprove. I find
   this a fitting tagline for studies on a topic that is as contentious as
   programming language efficacy.
+
 [^meta-study]: [Meta study on Dynamic v. Static Typing](https://danluu.com/empirical-pl/)
+
 [^github-study]: Study uses the commit log in order to determine how many bugs there were
   for each project, which gives the result of how efficiently bugs are
   reported and fixed in a project rather than prove the absence of them -
   [A large scale study of programming languages and code quality in
   Github](https://dl.acm.org/citation.cfm?id=2635922)
+
 [^prototyping-haskell-vs-ada]: Single sample size for each language except Haskell - [Haskell vs. Ada
   vs. C++ vs. Awk vs. ... An Experiment in Software Prototyping
   Productivity](http://haskell.cs.yale.edu/wp-content/uploads/2011/03/HaskellVsAda-NSWC.pdf)
+
 [^api-doc-static]: Project chosen that was thought to specifically benefit from static
   typing and API documentation. [How Do API Documentation and Static Typing
   Affect API
   Usability?](http://users.dcc.uchile.cl/~rrobbes/p/ICSE2014-docstypes.pdf)
+
 [^mono-vs-micro]: [Roch, Benjamin. "Monolithic kernel vs. Microkernel." TU Wien
   (2004).](https://web.cs.wpi.edu/~cs3013/c12/Papers/Roch_Microkernels.pdf)
 
