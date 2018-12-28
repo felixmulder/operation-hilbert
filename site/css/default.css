@@ -61,3 +61,42 @@ div#header #navigation a {
 .footnote-ref {
   text-decoration: none;
 }
+
+/* Survey page specific rules */
+#survey-page-no {
+  text-align: left;
+  font-size: 16px;
+  margin-top: 15px;
+}
+
+.sv_container textarea {
+  width: calc(100% - 20px);
+  margin: 0 auto;
+  border: 0;
+  border-radius: 5px;
+  padding: 10px;
+  background-color: #f8f6f6;
+}
+
+.sv_q_title {
+  font-size: 18px;
+}
+
+.sv_nav {
+  margin-top: 10px;
+}
+
+.sv_prev_btn,
+.sv_next_btn,
+.sv_complete_btn {
+  font-size: 14px;
+  padding: 8px;
+  border: 0;
+  border-radius: 5px;
+}
+
+.sv_prev_btn:hover,
+.sv_next_btn:hover,
+.sv_complete_btn:hover {
+  cursor: pointer;
+}

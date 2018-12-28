@@ -1,0 +1,21 @@
+---
+title: Survey
+---
+
+<div id="surveyContainer">
+  <h1>Submission for Rapid Prototyping Project</h1>
+  <div v-if="survey.currentPageNo === 0">
+    <p>
+      Before allowing you to submit the assignment, we'd like to gather a few
+      datapoints. Both from your experience solving the assignment, as well as
+      some background information about you as a programmer.
+    </p>
+    <p>
+      Please note that no information will be saved on you that is personably
+      identifiable.
+    </p>
+  </div>
+  <survey :survey="survey"></survey>
+  <div v-if="!survey.isCompleted" id="survey-page-no">{{ survey.currentPageNo + 1}} / {{ survey.pageCount }} </div>
+</div>
+<script src="/js/survey.js"></script>
