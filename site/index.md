@@ -18,7 +18,7 @@ preconceived notions.
 ## Problems with existing studies
 There exist a bunch of empirical studies on the efficacy of programming
 languages and paradigms in certain contexts. They seem, however, to not be up
-to par when it comes to scientific criteria[^meta-study] of:
+to par when it comes to criteria[^meta-study] of:
 
 - Scientific hypothesis
 - Sound methodology[^github-study]
@@ -48,23 +48,27 @@ types get in the way of what they're trying to do.
 ### Rapid prototyping
 Certain languages are known for lending themselves especially well to rapid
 prototyping of programs and features. This perception is especially true for
-languages that are untyped. As with other points of contention
+languages that are untyped. As with other points of contention in this
+document, it is hard to make any solid claims as some studies lack data points
+or the chosen methodology measures something other than that which is intended.
 
 ### Maintainability
 Some of the largest open source software projects in the world are built using
 fairly untyped languages. E.g. Linux is built as a monolithic kernel in C. It
 is often argued that micro kernels are more maintainable than their monolithic
-counterparts[^mono-vs-micro] and that languages with stronger typesystems are more maintable
-over time. But there seems to be little evidence for or against these claims.
+counterparts[^mono-vs-micro] and that languages with stronger typesystems are
+more maintable over time. But there seems to be little evidence for or against
+these claims.
 
 [^wir-mussen]: [From David Hilbert's famous retirement
-  address](https://en.wikipedia.org/wiki/David_Hilbert#cite_ref-19) to the
-  Society of German Scientists and Physicians on 8 September 1930. The day
-  before this phrase was uttered, Gödel unveiled his incompleteness theorem.
-  This theorem shows that elementary axiomatic systems such as Peano arithmetic
-  are either self-contradicting or contain logical propositions that are either
-  impossible to prove or disprove. I find this a fitting tagline for studies on
-  a topic that is as contentious as programming language efficacy.
+  address](https://en.wikipedia.org/wiki/David_Hilbert#cite_ref-19), "We must
+  know, we will know". Made to the Society of German Scientists and Physicians
+  on 8 September 1930. The day before this phrase was uttered, Gödel unveiled
+  his incompleteness theorem.  This theorem shows that elementary axiomatic
+  systems such as Peano arithmetic are either self-contradicting or contain
+  logical propositions that are either impossible to prove or disprove. I find
+  this a fitting tagline for studies on a topic that is as contentious as
+  programming language efficacy.
 [^meta-study]: [Meta study on Dynamic v. Static Typing](https://danluu.com/empirical-pl/)
 [^github-study]: Study uses the commit log in order to determine how many bugs there were
   for each project, which gives the result of how efficiently bugs are
