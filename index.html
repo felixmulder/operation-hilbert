@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <title>Operation Hilbert - Programming Languages and their efficacy</title>
+    <link href="https://fonts.googleapis.com/css?family=Titillium+Web:200,300" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="./css/default.css" />
+  </head>
+  <body>
+    <div id="header">
+      <div id="navigation">
+        <a href="./index.html">Home</a>
+        <a href="./assignment.html">Assignment</a>
+        <a href="./survey.html">Submission</a>
+        <a href="./contact.html">Contact</a>
+      </div>
+    </div>
+
+    <div id="content">
+      <h1>Programming Languages and their efficacy</h1>
+      <blockquote>
+<p>“Wir müssen wissen — wir werden wissen!” – David Hilbert, 1930<a href="#fn1" class="footnote-ref" id="fnref1"><sup>1</sup></a></p>
+</blockquote>
+<p>This project aims to provide data for analysis with regards to the efficacy of programming languages.</p>
+<h2 id="background">Background</h2>
+<p>During the time of writing, the availability of scientifically backed data on different aspects of programming language efficacy is severely lacking. This makes it hard to have an informed debate on the suitability of certain programming languages for certain tasks. Typically the motivation for using or refusing to use a certain language comes down to individual preference and preconceived notions.</p>
+<h2 id="problems-with-existing-studies">Problems with existing studies</h2>
+<p>There exist a bunch of empirical studies on the efficacy of programming languages and paradigms in certain contexts. They seem, however, to not be up to par when it comes to criteria<a href="#fn2" class="footnote-ref" id="fnref2"><sup>2</sup></a> of:</p>
+<ul>
+<li>Scientific hypothesis</li>
+<li>Sound methodology<a href="#fn3" class="footnote-ref" id="fnref3"><sup>3</sup></a></li>
+<li>Sufficient underlying data<a href="#fn4" class="footnote-ref" id="fnref4"><sup>4</sup></a></li>
+<li>Unbiased<a href="#fn5" class="footnote-ref" id="fnref5"><sup>5</sup></a></li>
+</ul>
+<h2 id="points-of-contention">Points of contention</h2>
+<h3 id="functional-versus-object-oriented">Functional versus object oriented</h3>
+<p>While most modern major programming languages (such as C#, Java and Swift) are increasingly drawing influence from functional programming. There is no data that suggests that either paradigm is <em>better</em> than the other.</p>
+<h3 id="difficulty-to-understand">Difficulty to understand</h3>
+<p>Certain languages are perceived as being more difficult to understand. It is difficult to say if this is justified as the statement itself is hard to quantify. Is it because of lack of knowledge in the language’s paradigm? Is it because of alien-looking syntax? Is it because the person stating this has had first hand exposure to different paradigms and languages over extended periods of time and thus makes a fair proclamation?</p>
+<h3 id="typed-versus-untyped">Typed versus untyped</h3>
+<p>Proponents of typed languages will say that types eliminate an entire class of runtime errors. Proponents of untyped languages will say that the types get in the way of what they’re trying to do.</p>
+<h3 id="rapid-prototyping">Rapid prototyping</h3>
+<p>Certain languages are known for lending themselves especially well to rapid prototyping of programs and features. This perception is especially true for languages that are untyped. As with other points of contention in this document, it is hard to make any solid claims as some studies lack data points or the chosen methodology measures something other than that which is intended.</p>
+<h3 id="maintainability">Maintainability</h3>
+<p>Some of the largest open source software projects in the world are built using fairly untyped languages. E.g. Linux is built as a monolithic kernel in C. It is often argued that micro kernels are more maintainable than their monolithic counterparts<a href="#fn6" class="footnote-ref" id="fnref6"><sup>6</sup></a> and that languages with stronger typesystems are more maintable over time. But there seems to be little evidence for or against these claims.</p>
+<section class="footnotes">
+<hr />
+<ol>
+<li id="fn1"><p><a href="https://en.wikipedia.org/wiki/David_Hilbert#cite_ref-19">From David Hilbert’s famous retirement address</a>, “We must know, we will know”. Made to the Society of German Scientists and Physicians on 8 September 1930. The day before this phrase was uttered, Gödel unveiled his incompleteness theorem. This theorem shows that elementary axiomatic systems such as Peano arithmetic are either self-contradicting or contain logical propositions that are either impossible to prove or disprove. I find this a fitting tagline for studies on a topic that is as contentious as programming language efficacy.<a href="#fnref1" class="footnote-back">↩</a></p></li>
+<li id="fn2"><p><a href="https://danluu.com/empirical-pl/">Meta study on Dynamic v. Static Typing</a><a href="#fnref2" class="footnote-back">↩</a></p></li>
+<li id="fn3"><p>Study uses the commit log in order to determine how many bugs there were for each project, which gives the result of how efficiently bugs are reported and fixed in a project rather than prove the absence of them - <a href="https://dl.acm.org/citation.cfm?id=2635922">A large scale study of programming languages and code quality in Github</a><a href="#fnref3" class="footnote-back">↩</a></p></li>
+<li id="fn4"><p>Single sample size for each language except Haskell - <a href="http://haskell.cs.yale.edu/wp-content/uploads/2011/03/HaskellVsAda-NSWC.pdf">Haskell vs. Ada vs. C++ vs. Awk vs. … An Experiment in Software Prototyping Productivity</a><a href="#fnref4" class="footnote-back">↩</a></p></li>
+<li id="fn5"><p>Project chosen that was thought to specifically benefit from static typing and API documentation. <a href="http://users.dcc.uchile.cl/~rrobbes/p/ICSE2014-docstypes.pdf">How Do API Documentation and Static Typing Affect API Usability?</a><a href="#fnref5" class="footnote-back">↩</a></p></li>
+<li id="fn6"><p><a href="https://web.cs.wpi.edu/~cs3013/c12/Papers/Roch_Microkernels.pdf">Roch, Benjamin. “Monolithic kernel vs. Microkernel.” TU Wien (2004).</a><a href="#fnref6" class="footnote-back">↩</a></p></li>
+</ol>
+</section>
+    </div>
+  </body>
+</html>
